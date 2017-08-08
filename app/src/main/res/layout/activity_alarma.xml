@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_alarma"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextTitulo"
+        android:hint="Titulo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextMensaje"
+        android:hint="Mensaje" />
+
+    <Button
+        android:text="Seleccione la fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFecha" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextFecha"
+        android:hint="Fecha" />
+
+    <Button
+        android:text="Seleccione la hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonHora" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextHora"
+        android:hint="Hora" />
+
+    <Button
+        android:text="Guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonGuardar"
+        android:onClick="llenarBD" />
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:id="@+id/timePicker"
+        android:visibility="invisible" />
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:id="@+id/datePicker"
+        android:visibility="invisible" />
+
+</LinearLayout>

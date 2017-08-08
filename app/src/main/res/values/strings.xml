@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Alarma</string>
+    <string name="texto">Alarma de ejemplo con SQLite</string>
+</resources>
